@@ -1,0 +1,17 @@
+# Create a dictionary
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+
+# Accessing dictionary items
+print("The value of 'apple' is", my_dict["apple"])
+
+# Adding a new item to the dictionary
+my_dict["grape"] = 5
+print("The updated dictionary is", my_dict)
+
+# Removing an item from the dictionary
+del my_dict["orange"]
+print("The updated dictionary is", my_dict)
+
+# Iterating through the dictionary
+for key, value in my_dict.items():
+    print(key, ":", value)
